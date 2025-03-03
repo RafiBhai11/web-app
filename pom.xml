@@ -13,7 +13,7 @@
 	<artifactId>09-REGISTRATION-API</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>09-REGISTRATION-API</name>
-        <packaging>war</packagin>
+        <packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
