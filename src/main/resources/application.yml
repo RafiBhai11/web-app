@@ -1,0 +1,26 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: com.oracle.jdbc.driver.OracleDriver
+    password: IES_DEV
+    url: jdbc:oracle:thin:@localhost:1521/XE
+    username: IES_DEV
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    password: pwd
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: ashokit@gmail.com
+reg-app: 
+  messages:
+    regMailSubject: User Registration Success
+    regMailBodyTemplateFile: UNLOCK-ACC-EMAIL-BODY-TEMPLATE.txt
